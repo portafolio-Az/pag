@@ -107,7 +107,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   height: 3px;
   width: 0%;
   background: linear-gradient(90deg, var(--copper-dark) 0%, var(--copper) 60%, #E8C97E 100%);
-  z-index: 9999;
+  z-index: 10001;
   transition: width 0.1s linear;
   box-shadow: 0 0 8px rgba(200,169,110,0.5);
 }
@@ -183,7 +183,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 #header {
   position: fixed;
   top: 0; left: 0; right: 0;
-  z-index: 1000;
+  z-index: 10000;
   height: var(--header-h);
   transition: background var(--dur-base) var(--ease),
               box-shadow var(--dur-base) var(--ease),
@@ -354,7 +354,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   width: 44px;
   height: 44px;
   padding: 10px;
-  z-index: 1600;
+  z-index: 10000;
   position: relative;
   flex-shrink: 0;
   pointer-events: auto;
@@ -384,11 +384,15 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   background: rgba(10,22,40,0.75);
   z-index: 1400;
   opacity: 0;
+  pointer-events: none; /* invisible = no debe interceptar toques */
   transition: opacity var(--dur-base) var(--ease);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
-.nav-overlay.visible { opacity: 1; }
+.nav-overlay.visible {
+  opacity: 1;
+  pointer-events: auto; /* solo intercepta toques cuando el menú está abierto */
+}
 
 /* Drawer móvil: siempre oculto salvo en breakpoint móvil */
 #main-nav-mobile {
