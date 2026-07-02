@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Administración de obra profesional: planeación, supervisión técnica, control presupuestario y coordinación de contratistas. Conozca nuestros planes y costos." />
+  <meta name="keywords" content="administración de obra, supervisión de obra, control presupuestario, construcción, planes y costos, México" />
+  <meta name="author" content="Servicios Profesionales" />
+  <meta property="og:title" content="Administración de Obra | Planes y Costos | Servicios Profesionales" />
+  <meta property="og:description" content="Control total del ciclo constructivo. Conozca a detalle qué incluye nuestro servicio de administración de obra y elija el plan ideal para su proyecto." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.pexels.com/videos/1197802/free-video-1197802.jpg?auto=compress&cs=tinysrgb&h=630&w=1200" />
+  <title>Administración de Obra | Planes y Costos | Servicios Profesionales</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%230A1628'/><text y='24' x='4' font-size='22' fill='%23C8A96E'>A</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Barlow+Condensed:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Barra de progreso de scroll -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header" role="banner">
+    <div class="header-inner">
+      <a href="index.html#inicio" class="logo" aria-label="Ir al inicio">
+        <span class="logo-mark">A</span>
+        <span class="logo-text">
+          <strong>Administración</strong>
+          <em>Profesional</em>
+        </span>
+      </a>
+
+      <!-- Nav desktop: visible en escritorio, oculto en móvil -->
+      <nav id="main-nav-desktop" role="navigation" aria-label="Menú principal" class="nav-desktop">
+        <ul class="nav-list">
+          <li><a href="index.html#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="index.html#nosotros" class="nav-link">Nosotros</a></li>
+          <li class="has-submenu">
+            <a href="index.html#servicios" class="nav-link active">Servicios <span class="chevron">›</span></a>
+            <ul class="submenu" role="menu">
+              <li><a href="administracion-de-obra.html" role="menuitem">Administración de Obra</a></li>
+              <li><a href="index.html#servicios" role="menuitem">Recursos Humanos</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#beneficios" class="nav-link">Beneficios</a></li>
+          <li><a href="index.html#clientes" class="nav-link">Clientes</a></li>
+          <li><a href="index.html#faq" class="nav-link">Preguntas Frecuentes</a></li>
+          <li><a href="#contacto" class="nav-link nav-cta">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger: visible solo en móvil -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav-mobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Nav móvil: drawer independiente fuera del header -->
+  <div id="main-nav-mobile" class="mobile-nav" aria-hidden="true" role="dialog" aria-label="Menú de navegación">
+    <nav>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html#inicio">Inicio</a></li>
+        <li><a href="index.html#nosotros">Nosotros</a></li>
+        <li><a href="administracion-de-obra.html">Administración de Obra</a></li>
+        <li><a href="index.html#servicios">Recursos Humanos</a></li>
+        <li><a href="index.html#beneficios">Beneficios</a></li>
+        <li><a href="index.html#clientes">Clientes</a></li>
+        <li><a href="index.html#faq">Preguntas Frecuentes</a></li>
+        <li class="mobile-nav-cta"><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+  <!-- ===== MINI HERO CON VIDEO ===== -->
+  <section id="inicio" class="mini-hero" aria-label="Administración de Obra">
+    <div class="mini-hero-media" aria-hidden="true">
+      <img src="https://images.pexels.com/videos/1197802/free-video-1197802.jpg?auto=compress&cs=tinysrgb&h=1080&w=1920" alt="" id="mini-hero-poster" />
+      <video autoplay muted loop playsinline preload="metadata"
+             poster="https://images.pexels.com/videos/1197802/free-video-1197802.jpg?auto=compress&cs=tinysrgb&h=1080&w=1920">
+        <source src="https://videos.pexels.com/video-files/1197802/1197802-hd_1920_1080_25fps.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="mini-hero-overlay" aria-hidden="true"></div>
+
+    <div class="mini-hero-content">
+      <p class="mini-hero-crumb">
+        <a href="index.html">Inicio</a> <span aria-hidden="true">/</span> <span>Administración de Obra</span>
+      </p>
+      <span class="mini-hero-eyebrow">Servicio especializado</span>
+      <h1 class="mini-hero-title">Administración de obra<em>con precisión de ingeniería</em></h1>
+      <p class="mini-hero-desc">Planeamos, supervisamos y controlamos cada etapa de su proyecto de construcción para que se entregue en tiempo, forma y dentro del presupuesto. Elija el nivel de acompañamiento que su obra necesita.</p>
+      <div class="mini-hero-actions">
+        <a href="#planes" class="btn btn-primary">Ver planes y costos</a>
+        <a href="#contacto" class="btn btn-outline">Solicitar cotización</a>
+      </div>
+
+      <div class="mini-hero-stats">
+        <div class="mini-hero-stat">
+          <strong>200+</strong>
+          <span>Obras administradas</span>
+        </div>
+        <div class="mini-hero-stat">
+          <strong>20+</strong>
+          <span>Años de experiencia</span>
+        </div>
+        <div class="mini-hero-stat">
+          <strong>98%</strong>
+          <span>Entregas en tiempo</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="mini-hero-scroll-cue" aria-hidden="true">
+      <span>Desplácese</span>
+      <div class="cue-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== QUÉ INCLUYE EL SERVICIO ===== -->
+  <section id="alcance" class="section coverage-section" aria-label="Qué incluye el servicio">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow">Alcance del servicio</span>
+        <h2 class="section-title">Control total, de la <em>planeación al cierre</em></h2>
+        <p class="section-subtitle">Administramos cada frente de su obra para que usted se enfoque en su negocio, no en resolver imprevistos.</p>
+      </div>
+
+      <div class="coverage-grid">
+
+        <div class="coverage-card reveal-up" style="--delay: 0s">
+          <span class="coverage-index">01</span>
+          <div class="coverage-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M6 12h28M6 20h28M6 28h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="30" cy="28" r="4" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Planeación y programación</h3>
+          <p>Cronograma de obra detallado, ruta crítica y asignación de recursos antes de colocar el primer ladrillo.</p>
+        </div>
+
+        <div class="coverage-card reveal-up" style="--delay: 0.08s">
+          <div class="coverage-index">02</div>
+          <div class="coverage-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M20 4l4 8 9 1-6.5 6.5L28 28l-8-4-8 4 1.5-8.5L6.5 13l9-1 4.5-8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Supervisión técnica en campo</h3>
+          <p>Visitas periódicas de un responsable técnico que verifica avances, calidad y apego al proyecto ejecutivo.</p>
+        </div>
+
+        <div class="coverage-card reveal-up" style="--delay: 0.16s">
+          <div class="coverage-index">03</div>
+          <div class="coverage-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="8" width="28" height="24" rx="2" stroke="currentColor" stroke-width="2"/><path d="M12 16h16M12 22h16M12 28h9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Control presupuestario</h3>
+          <p>Seguimiento línea por línea del gasto real contra el presupuestado, con alertas tempranas de desviación.</p>
+        </div>
+
+        <div class="coverage-card reveal-up" style="--delay: 0.24s">
+          <div class="coverage-index">04</div>
+          <div class="coverage-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="14" cy="13" r="5" stroke="currentColor" stroke-width="2"/><circle cx="27" cy="13" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 33c0-6 4.5-10 10-10s10 4 10 10" stroke="currentColor" stroke-width="2"/><path d="M27 20c4 0 7 3 7 8" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Coordinación de contratistas</h3>
+          <p>Gestionamos cuadrillas, subcontratos y proveedores para que los tiempos de cada frente no se encimen.</p>
+        </div>
+
+        <div class="coverage-card reveal-up" style="--delay: 0.32s">
+          <div class="coverage-index">05</div>
+          <div class="coverage-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M20 4l14 6v9c0 9-6 15-14 17-8-2-14-8-14-17v-9l14-6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 20l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Calidad y seguridad</h3>
+          <p>Protocolos de seguridad laboral y control de calidad en cada etapa, conforme a la normativa vigente.</p>
+        </div>
+
+        <div class="coverage-card reveal-up" style="--delay: 0.4s">
+          <div class="coverage-index">06</div>
+          <div class="coverage-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M8 24l8 8 16-18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="5" y="5" width="30" height="30" rx="4" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Cierre y entrega</h3>
+          <p>Finiquito con contratistas, documentación completa y entrega llave en mano con acta formal.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALERÍA EN MOVIMIENTO ===== -->
+  <section class="section gallery-section" aria-label="Obras administradas">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow">Trabajo en obra</span>
+        <h2 class="section-title">Proyectos que hablan <em>por sí solos</em></h2>
+      </div>
+    </div>
+    <div class="gallery-marquee">
+      <div class="gallery-track">
+
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=700&q=80" alt="Ingenieros revisando planos en obra" loading="lazy" />
+          <div class="gallery-item-caption">Revisión de proyecto ejecutivo en sitio</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=80" alt="Supervisión de estructura en construcción" loading="lazy" />
+          <div class="gallery-item-caption">Supervisión de avance estructural</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80" alt="Equipo de trabajo coordinando obra" loading="lazy" />
+          <div class="gallery-item-caption">Reunión de coordinación en obra</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=700&q=80" alt="Resultados garantizados en construcción" loading="lazy" />
+          <div class="gallery-item-caption">Resultados que se notan en obra</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=700&q=80" alt="Control de calidad en materiales de obra" loading="lazy" />
+          <div class="gallery-item-caption">Control de calidad de materiales</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=700&q=80" alt="Planeación y documentación técnica" loading="lazy" />
+          <div class="gallery-item-caption">Planeación y documentación técnica</div>
+        </div>
+
+        <!-- Set duplicado para loop continuo -->
+        <div class="gallery-item" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=700&q=80" alt="" loading="lazy" />
+          <div class="gallery-item-caption">Revisión de proyecto ejecutivo en sitio</div>
+        </div>
+        <div class="gallery-item" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=80" alt="" loading="lazy" />
+          <div class="gallery-item-caption">Supervisión de avance estructural</div>
+        </div>
+        <div class="gallery-item" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&q=80" alt="" loading="lazy" />
+          <div class="gallery-item-caption">Reunión de coordinación en obra</div>
+        </div>
+        <div class="gallery-item" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=700&q=80" alt="" loading="lazy" />
+          <div class="gallery-item-caption">Resultados que se notan en obra</div>
+        </div>
+        <div class="gallery-item" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=700&q=80" alt="" loading="lazy" />
+          <div class="gallery-item-caption">Control de calidad de materiales</div>
+        </div>
+        <div class="gallery-item" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=700&q=80" alt="" loading="lazy" />
+          <div class="gallery-item-caption">Planeación y documentación técnica</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PLANES Y COSTOS ===== -->
+  <section id="planes" class="section pricing-section" aria-label="Planes y costos">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow">Planes y costos</span>
+        <h2 class="section-title">Un plan para cada <em>tamaño de obra</em></h2>
+        <p class="section-subtitle">Precios de referencia en pesos mexicanos. La cotización final se ajusta al alcance, ubicación y duración de su proyecto.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card reveal-up" style="--delay: 0s">
+          <span class="pricing-name">Esencial</span>
+          <p class="pricing-tagline">Para obras pequeñas o remodelaciones puntuales.</p>
+          <div class="pricing-price"><span class="amount">$18,000</span><span class="period">MXN&nbsp;/&nbsp;mes</span></div>
+          <p class="pricing-note">Desde, obra de hasta 3 meses</p>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>1 visita técnica por semana</li>
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Reporte de avance mensual</li>
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Control básico de presupuesto</li>
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Comunicación directa por WhatsApp</li>
+          </ul>
+          <a href="https://wa.me/9992657169?text=Hola%2C%20me%20interesa%20el%20plan%20Esencial%20de%20Administraci%C3%B3n%20de%20Obra.%20%C2%BFMe%20podr%C3%ADan%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" target="_blank" rel="noopener noreferrer" class="btn btn-outline pricing-cta">Elegir Esencial</a>
+        </div>
+
+        <div class="pricing-card featured reveal-up" style="--delay: 0.1s">
+          <span class="pricing-badge">Más solicitado</span>
+          <span class="pricing-name">Profesional</span>
+          <p class="pricing-tagline">Para obras medianas con administración continua.</p>
+          <div class="pricing-price"><span class="amount">$35,000</span><span class="period">MXN&nbsp;/&nbsp;mes</span></div>
+          <p class="pricing-note">Desde, obra de 3 a 8 meses</p>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>3 visitas técnicas por semana</li>
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Reportes quincenales con fotografías</li>
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Control presupuestario detallado</li>
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Coordinación de contratistas y proveedores</li>
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Gestión de permisos y trámites</li>
+          </ul>
+          <a href="https://wa.me/9992657169?text=Hola%2C%20me%20interesa%20el%20plan%20Profesional%20de%20Administraci%C3%B3n%20de%20Obra.%20%C2%BFMe%20podr%C3%ADan%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" target="_blank" rel="noopener noreferrer" class="btn btn-primary pricing-cta">Elegir Profesional</a>
+        </div>
+
+        <div class="pricing-card reveal-up" style="--delay: 0.2s">
+          <span class="pricing-name">Integral</span>
+          <p class="pricing-tagline">Para desarrollos grandes o proyectos llave en mano.</p>
+          <div class="pricing-price"><span class="amount">Cotización</span></div>
+          <p class="pricing-note">A la medida de su proyecto</p>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features">
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Administración de tiempo completo</li>
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Equipo técnico dedicado en sitio</li>
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Reportes ejecutivos semanales</li>
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Control de calidad y seguridad certificado</li>
+            <li><svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Cierre administrativo y entrega llave en mano</li>
+          </ul>
+          <a href="https://wa.me/9992657169?text=Hola%2C%20me%20interesa%20el%20plan%20Integral%20de%20Administraci%C3%B3n%20de%20Obra.%20%C2%BFMe%20podr%C3%ADan%20dar%20m%C3%A1s%20informaci%C3%B3n%3F" target="_blank" rel="noopener noreferrer" class="btn btn-outline pricing-cta">Solicitar cotización</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section id="faq" class="section faq-section" aria-label="Preguntas frecuentes">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <span class="section-eyebrow">Preguntas Frecuentes</span>
+        <h2 class="section-title">Dudas sobre <em>administración de obra</em></h2>
+      </div>
+      <div class="faq-grid">
+        <div class="accordion reveal-up">
+
+          <div class="accordion-item">
+            <button class="accordion-btn" aria-expanded="false">
+              <span>¿Cómo sé qué plan es el adecuado para mi obra?</span>
+              <span class="acc-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>Depende del tamaño, duración y complejidad del proyecto. En la consulta inicial, sin costo, evaluamos su obra y le recomendamos el plan que mejor se ajusta a sus necesidades y presupuesto.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" aria-expanded="false">
+              <span>¿Puedo cambiar de plan durante la obra?</span>
+              <span class="acc-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>Sí. Muchos proyectos cambian de ritmo conforme avanzan las etapas. Puede subir o bajar de plan al cierre de cada mes, sin penalización.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" aria-expanded="false">
+              <span>¿Qué pasa si un contratista genera un retraso?</span>
+              <span class="acc-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>Damos seguimiento puntual a cada frente de trabajo. Si detectamos un retraso, activamos un plan de contingencia y le informamos de inmediato junto con las opciones disponibles para recuperar el tiempo.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" aria-expanded="false">
+              <span>¿Incluyen la gestión de permisos y licencias?</span>
+              <span class="acc-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>Los planes Profesional e Integral incluyen gestión de permisos y trámites ante las autoridades correspondientes. En el plan Esencial esta gestión se puede añadir como servicio adicional.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" aria-expanded="false">
+              <span>¿Cómo doy seguimiento al avance de mi obra?</span>
+              <span class="acc-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="accordion-panel">
+              <p>Recibe reportes periódicos con fotografías, porcentaje de avance y estado del presupuesto, además de comunicación directa por WhatsApp con el responsable técnico asignado a su proyecto.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section id="contacto" class="section contact-section" aria-label="Formulario de contacto">
+    <div class="contact-bg" aria-hidden="true">
+      <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80" alt="" loading="lazy" />
+      <div class="contact-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <span class="section-eyebrow">Hablemos</span>
+          <h2 class="section-title">Inicie la administración<br><em>de su obra hoy</em></h2>
+          <p class="contact-lead">Cuéntenos sobre su proyecto y le responderemos en menos de 24 horas con una propuesta y plan recomendado.</p>
+          <ul class="contact-details">
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.5"/></svg>
+              </span>
+              <span>+52 55 4470 5244</span>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2z" stroke="currentColor" stroke-width="1.5"/><path d="M22 6l-10 7L2 6" stroke="currentColor" stroke-width="1.5"/></svg>
+              </span>
+              <span>contacto@administracionprofesional.mx</span>
+            </li>
+            <li>
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 13 7 13s7-7.7 7-13c0-3.9-3.1-7-7-7z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="1.5"/></svg>
+              </span>
+              <span>Ciudad de México, México</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-form-wrapper reveal-right">
+          <form id="contact-form" class="contact-form" novalidate aria-label="Formulario de contacto">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre completo <span aria-hidden="true">*</span></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan García" required autocomplete="name" />
+                <span class="form-error" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="empresa" placeholder="Nombre de su empresa" autocomplete="organization" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="correo">Correo electrónico <span aria-hidden="true">*</span></label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required autocomplete="email" />
+                <span class="form-error" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+52 55 0000 0000" autocomplete="tel" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="servicio">Plan de interés <span aria-hidden="true">*</span></label>
+              <select id="servicio" name="servicio" required>
+                <option value="Administración de Obra - Esencial">Administración de Obra — Esencial</option>
+                <option value="Administración de Obra - Profesional" selected>Administración de Obra — Profesional</option>
+                <option value="Administración de Obra - Integral">Administración de Obra — Integral</option>
+                <option value="Administración de Obra - Por definir">Aún no sé, necesito asesoría</option>
+              </select>
+              <span class="form-error" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje <span aria-hidden="true">*</span></label>
+              <textarea id="mensaje" name="mensaje" rows="4" placeholder="Describa brevemente su proyecto o necesidad..." required></textarea>
+              <span class="form-error" role="alert"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>Enviar por WhatsApp</span>
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.1 3 .1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 2-1.4.2-.6.2-1.2.1-1.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.2L2 22l4.9-1.4C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.2.9.9-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+            </button>
+            <p class="form-note">Al enviar, se abrirá WhatsApp con su información.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-col footer-brand">
+            <a href="index.html#inicio" class="logo logo-light" aria-label="Ir al inicio">
+              <span class="logo-mark">A</span>
+              <span class="logo-text">
+                <strong>Administración</strong>
+                <em>Profesional</em>
+              </span>
+            </a>
+            <p>Especialistas en administración de obra y gestión de recursos humanos con más de 20 años de experiencia en el mercado mexicano.</p>
+            <div class="footer-social" aria-label="Redes sociales">
+              <a href="https://wa.me/5215544705244" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.1 3 .1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 2-1.4.2-.6.2-1.2.1-1.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.2L2 22l4.9-1.4C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.2.9.9-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              </a>
+              <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.83a8.18 8.18 0 004.79 1.53V6.89a4.85 4.85 0 01-1.02-.2z"/></svg>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Servicios</h4>
+            <ul class="footer-links">
+              <li><a href="administracion-de-obra.html">Administración de Obra</a></li>
+              <li><a href="index.html#servicios">Recursos Humanos</a></li>
+              <li><a href="index.html#servicios">Consultoría de Proyectos</a></li>
+              <li><a href="index.html#proceso">Nuestro Proceso</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Empresa</h4>
+            <ul class="footer-links">
+              <li><a href="index.html#nosotros">Sobre Nosotros</a></li>
+              <li><a href="index.html#beneficios">Por Qué Elegirnos</a></li>
+              <li><a href="index.html#clientes">Testimonios</a></li>
+              <li><a href="index.html#estadisticas">Resultados</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Contacto</h4>
+            <ul class="footer-contact">
+              <li>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" stroke="currentColor" stroke-width="1.5"/><path d="M10 2C6.7 2 4 4.7 4 8c0 4.4 6 10 6 10s6-5.6 6-10c0-3.3-2.7-6-6-6z" stroke="currentColor" stroke-width="1.5"/></svg>
+                Ciudad de México, México
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5.5 9c1.2 2.3 3.2 4.3 5.5 5.5l1.8-1.8c.3-.3.6-.3.9-.2.9.3 1.9.5 3 .5.5 0 .8.4.8.8V17c0 .5-.4.8-.8.8C8 17.8 2.2 12 2.2 4.8c0-.5.3-.8.8-.8H6c.5 0 .8.3.8.8 0 1.1.2 2.1.5 3 .1.3 0 .6-.2.8L5.5 9z" stroke="currentColor" stroke-width="1.5"/></svg>
+                +52 55 4470 5244
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 5h14a1 1 0 011 1v8a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1z" stroke="currentColor" stroke-width="1.5"/><path d="M2 6l8 6 8-6" stroke="currentColor" stroke-width="1.5"/></svg>
+                contacto@admprofesional.mx
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 Administración Profesional. Todos los derechos reservados.</p>
+        <ul class="footer-legal">
+          <li><a href="#">Aviso de Privacidad</a></li>
+          <li><a href="#">Política de Cookies</a></li>
+          <li><a href="#">Términos y Condiciones</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BOTONES FLOTANTES ===== -->
+  <a href="https://wa.me/5215544705244" class="fab fab-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.1 3 .1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 2-1.4.2-.6.2-1.2.1-1.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.2L2 22l4.9-1.4C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.2.9.9-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+  </a>
+  <button class="fab fab-top" id="back-to-top" aria-label="Volver al inicio">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 15l-6-6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+  <script>
+    // Oculta el poster en cuanto el video puede reproducirse (evita salto visual)
+    (function () {
+      var video = document.querySelector('.mini-hero-media video');
+      var poster = document.getElementById('mini-hero-poster');
+      if (!video || !poster) return;
+      video.addEventListener('playing', function () { poster.style.opacity = '0'; }, { once: true });
+      // Si el video no puede reproducirse (dato móvil limitado, error, etc.) el poster permanece visible.
+      video.addEventListener('error', function () { video.style.display = 'none'; });
+    })();
+  </script>
+</body>
+</html>
