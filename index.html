@@ -19,6 +19,16 @@
 </head>
 <body>
 
+  <!-- Pantalla de carga / transición entre páginas -->
+  <div id="page-loader" class="page-loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-badge"><span class="loader-mark">A</span></div>
+      <p class="loader-text"><strong>Administración Profesional</strong>Cargando</p>
+      <div class="loader-bar"><span></span></div>
+    </div>
+  </div>
+  <noscript><style>#page-loader{display:none!important;}</style></noscript>
+
   <!-- Barra de progreso de scroll -->
   <div id="scroll-progress" aria-hidden="true"></div>
 
@@ -43,6 +53,7 @@
             <ul class="submenu" role="menu">
               <li><a href="administracion-de-obra.html" role="menuitem">Administración de Obra</a></li>
               <li><a href="administracion-rrhh.html" role="menuitem">Recursos Humanos</a></li>
+              <li><a href="consultoria-de-proyectos.html" role="menuitem">Consultoría de Proyectos</a></li>
             </ul>
           </li>
           <li><a href="#beneficios" class="nav-link">Beneficios</a></li>
@@ -287,7 +298,7 @@
                 <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.1 3 .1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 2-1.4.2-.6.2-1.2.1-1.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.2L2 22l4.9-1.4C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.2.9.9-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
                 Preguntar
               </a>
-              <a href="#" class="service-btn service-btn-more">Leer más</a>
+              <a href="consultoria-de-proyectos.html" class="service-btn service-btn-more">Leer más</a>
             </div>
           </div>
         </div>
@@ -783,7 +794,7 @@
             <ul class="footer-links">
               <li><a href="administracion-de-obra.html">Administración de Obra</a></li>
               <li><a href="administracion-rrhh.html">Recursos Humanos</a></li>
-              <li><a href="#servicios">Consultoría de Proyectos</a></li>
+              <li><a href="consultoria-de-proyectos.html">Consultoría de Proyectos</a></li>
               <li><a href="#proceso">Nuestro Proceso</a></li>
             </ul>
           </div>
