@@ -2286,6 +2286,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .loader-inner { animation: none; }
 }
 
+<<<<<<< HEAD
 /* =============================================================
    PÁGINAS LEGALES — Aviso de Privacidad / Términos y Condiciones
    ============================================================= */
@@ -2442,3 +2443,5 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .legal-toc a:hover, .legal-toc a.active { border-color: var(--copper); background: rgba(200,169,110,0.08); }
 }
 
+=======
+>>>>>>> 69d6b92fd24d61009389263dd42b1a4dd4e6ac45
