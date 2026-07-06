@@ -5,6 +5,46 @@
 document.addEventListener('DOMContentLoaded', () => {
 
   /* ─────────────────────────────────────────
+     PANTALLA DE CARGA / TRANSICIÓN ENTRE PÁGINAS
+  ───────────────────────────────────────── */
+  const pageLoader = document.getElementById('page-loader');
+  const loaderStart = performance.now();
+  const LOADER_MIN_MS = 550;   // tiempo mínimo visible para que no "parpadee"
+  const LOADER_MAX_MS = 4000;  // respaldo por si 'load' nunca dispara
+
+  function hideLoader() {
+    if (pageLoader) pageLoader.classList.add('hidden');
+  }
+  function showLoader() {
+    if (pageLoader) pageLoader.classList.remove('hidden');
+  }
+
+  if (pageLoader) {
+    window.addEventListener('load', () => {
+      const elapsed = performance.now() - loaderStart;
+      setTimeout(hideLoader, Math.max(0, LOADER_MIN_MS - elapsed));
+    });
+    setTimeout(hideLoader, LOADER_MAX_MS);
+
+    // Transición al navegar a otra página del sitio (no anclas, no externos)
+    document.querySelectorAll('a[href]').forEach(link => {
+      const href = link.getAttribute('href');
+      if (!href) return;
+      if (href.startsWith('#')) return;                         // ancla en la misma página
+      if (href.startsWith('http://') || href.startsWith('https://')) return; // enlaces externos (WhatsApp, redes, etc.)
+      if (href.startsWith('mailto:') || href.startsWith('tel:')) return;
+      if (link.target === '_blank' || link.hasAttribute('download')) return;
+
+      link.addEventListener('click', e => {
+        if (e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button === 1) return;
+        e.preventDefault();
+        showLoader();
+        setTimeout(() => { window.location.href = href; }, 420);
+      });
+    });
+  }
+
+  /* ─────────────────────────────────────────
      BARRA DE PROGRESO + HEADER SCROLL
   ───────────────────────────────────────── */
   const progressBar = document.getElementById('scroll-progress');

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Términos y Condiciones de uso del sitio web y los servicios de Administración Profesional." />
+  <meta name="robots" content="noindex, follow" />
+  <title>Términos y Condiciones | Administración Profesional</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%230A1628'/><text y='24' x='4' font-size='22' fill='%23C8A96E'>A</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Barlow+Condensed:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Pantalla de carga / transición entre páginas -->
+  <div id="page-loader" class="page-loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-badge"><span class="loader-mark">A</span></div>
+      <p class="loader-text"><strong>Administración Profesional</strong>Cargando</p>
+      <div class="loader-bar"><span></span></div>
+    </div>
+  </div>
+  <noscript><style>#page-loader{display:none!important;}</style></noscript>
+
+  <!-- Barra de progreso de scroll -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header" role="banner">
+    <div class="header-inner">
+      <a href="index.html#inicio" class="logo" aria-label="Ir al inicio">
+        <span class="logo-mark">A</span>
+        <span class="logo-text">
+          <strong>Administración</strong>
+          <em>Profesional</em>
+        </span>
+      </a>
+
+      <nav id="main-nav-desktop" role="navigation" aria-label="Menú principal" class="nav-desktop">
+        <ul class="nav-list">
+          <li><a href="index.html#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="index.html#nosotros" class="nav-link">Nosotros</a></li>
+          <li class="has-submenu">
+            <a href="index.html#servicios" class="nav-link">Servicios <span class="chevron">›</span></a>
+            <ul class="submenu" role="menu">
+              <li><a href="administracion-de-obra.html" role="menuitem">Administración de Obra</a></li>
+              <li><a href="administracion-rrhh.html" role="menuitem">Recursos Humanos</a></li>
+              <li><a href="consultoria-de-proyectos.html" role="menuitem">Consultoría de Proyectos</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#beneficios" class="nav-link">Beneficios</a></li>
+          <li><a href="index.html#clientes" class="nav-link">Clientes</a></li>
+          <li><a href="index.html#faq" class="nav-link">Preguntas Frecuentes</a></li>
+          <li><a href="index.html#contacto" class="nav-link nav-cta">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav-mobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div id="main-nav-mobile" class="mobile-nav" aria-hidden="true" role="dialog" aria-label="Menú de navegación">
+    <nav>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html#inicio">Inicio</a></li>
+        <li><a href="index.html#nosotros">Nosotros</a></li>
+        <li><a href="administracion-de-obra.html">Administración de Obra</a></li>
+        <li><a href="administracion-rrhh.html">Recursos Humanos</a></li>
+        <li><a href="consultoria-de-proyectos.html">Consultoría de Proyectos</a></li>
+        <li><a href="index.html#beneficios">Beneficios</a></li>
+        <li><a href="index.html#clientes">Clientes</a></li>
+        <li><a href="index.html#faq">Preguntas Frecuentes</a></li>
+        <li class="mobile-nav-cta"><a href="index.html#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+  <!-- ===== ENCABEZADO LEGAL ===== -->
+  <header class="legal-header">
+    <div class="legal-header-inner">
+      <p class="mini-hero-crumb">
+        <a href="index.html">Inicio</a> <span aria-hidden="true">/</span> <span>Términos y Condiciones</span>
+      </p>
+      <span class="legal-eyebrow">Condiciones de uso</span>
+      <h1>Términos y Condiciones</h1>
+      <p class="legal-updated">Última actualización: 5 de julio de 2026</p>
+    </div>
+  </header>
+
+  <!-- ===== CONTENIDO ===== -->
+  <section class="legal-body">
+    <div class="container">
+      <div class="legal-layout">
+
+        <aside class="legal-toc" aria-label="Contenido del documento">
+          <span class="legal-toc-label">Contenido</span>
+          <ul>
+            <li><a href="#aceptacion">1. Aceptación</a></li>
+            <li><a href="#servicios">2. Descripción de servicios</a></li>
+            <li><a href="#uso-sitio">3. Uso del sitio web</a></li>
+            <li><a href="#propiedad">4. Propiedad intelectual</a></li>
+            <li><a href="#cotizaciones">5. Cotizaciones y contratación</a></li>
+            <li><a href="#responsabilidad">6. Responsabilidad</a></li>
+            <li><a href="#enlaces">7. Enlaces a terceros</a></li>
+            <li><a href="#modificaciones">8. Modificaciones</a></li>
+            <li><a href="#ley">9. Ley aplicable</a></li>
+            <li><a href="#contacto-terminos">10. Contacto</a></li>
+          </ul>
+        </aside>
+
+        <article class="legal-article">
+
+          <h2 id="aceptacion">1. Aceptación de los términos</h2>
+          <p>Al acceder y utilizar el sitio web de <strong>Administración Profesional</strong>, usted acepta quedar sujeto a los presentes Términos y Condiciones. Si no está de acuerdo con alguno de los puntos aquí establecidos, le solicitamos abstenerse de utilizar este sitio o de contratar nuestros servicios.</p>
+
+          <h2 id="servicios">2. Descripción de los servicios</h2>
+          <p>Administración Profesional ofrece servicios de administración de obra, administración de recursos humanos y consultoría de proyectos, descritos con mayor detalle en las páginas correspondientes de este sitio. La información publicada tiene fines informativos y comerciales; el alcance, tiempos y costos definitivos de cada servicio se formalizan mediante una propuesta o contrato específico con el cliente.</p>
+
+          <h2 id="uso-sitio">3. Uso del sitio web</h2>
+          <p>Usted se compromete a utilizar este sitio web de manera lícita y conforme a estos Términos y Condiciones. Queda prohibido:</p>
+          <ul>
+            <li>Utilizar el sitio con fines fraudulentos o para actividades ilícitas.</li>
+            <li>Intentar acceder sin autorización a áreas restringidas del sitio o de nuestros sistemas.</li>
+            <li>Reproducir, copiar o distribuir el contenido del sitio con fines comerciales sin autorización previa por escrito.</li>
+            <li>Introducir virus, malware o cualquier código malicioso que pueda dañar el funcionamiento del sitio.</li>
+          </ul>
+
+          <h2 id="propiedad">4. Propiedad intelectual</h2>
+          <p>Los textos, imágenes, logotipos, diseño y demás elementos que integran este sitio web son propiedad de Administración Profesional o de sus respectivos licenciantes, y están protegidos por la legislación mexicana e internacional en materia de propiedad intelectual. Ninguna parte de este sitio puede reproducirse sin autorización previa y por escrito.</p>
+
+          <h2 id="cotizaciones">5. Cotizaciones y contratación de servicios</h2>
+          <p>Los precios de referencia mostrados en las páginas de "Planes y costos" son estimados y pueden variar según el alcance real, ubicación, duración y condiciones particulares de cada proyecto. Ninguna cotización enviada por este sitio, WhatsApp o correo electrónico se considera vinculante hasta que ambas partes firmen una propuesta o contrato de servicios formal.</p>
+
+          <h2 id="responsabilidad">6. Responsabilidad y limitaciones</h2>
+          <p>Administración Profesional pone su mejor esfuerzo en mantener la información de este sitio actualizada y precisa; sin embargo, no garantiza que el contenido esté libre de errores en todo momento. Administración Profesional no será responsable por daños indirectos derivados del uso del sitio web, distintos a los que se deriven de un contrato de prestación de servicios formalmente firmado.</p>
+
+          <h2 id="enlaces">7. Enlaces a sitios de terceros</h2>
+          <p>Este sitio contiene enlaces a plataformas de terceros, como WhatsApp y redes sociales, utilizados únicamente como medio de contacto. Administración Profesional no controla ni se hace responsable del contenido, políticas de privacidad o prácticas de dichos sitios de terceros.</p>
+
+          <h2 id="modificaciones">8. Modificaciones a los términos</h2>
+          <p>Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Las modificaciones entrarán en vigor a partir de su publicación en esta misma página, indicando la fecha de la última actualización.</p>
+
+          <h2 id="ley">9. Ley aplicable y jurisdicción</h2>
+          <p>Estos Términos y Condiciones se rigen por las leyes de los Estados Unidos Mexicanos. Para cualquier controversia derivada de su interpretación o cumplimiento, las partes se someten a los tribunales competentes de la Ciudad de México, renunciando a cualquier otro fuero que pudiera corresponderles.</p>
+
+          <h2 id="contacto-terminos">10. Contacto</h2>
+          <p>Para cualquier duda relacionada con estos Términos y Condiciones, puede contactarnos a través de:</p>
+          <ul>
+            <li>Correo electrónico: <a href="mailto:contacto@administracionprofesional.mx">contacto@administracionprofesional.mx</a></li>
+            <li>WhatsApp: <a href="https://wa.me/5215544705244" target="_blank" rel="noopener noreferrer">+52 55 4470 5244</a></li>
+            <li>Domicilio: Ciudad de México, México</li>
+          </ul>
+
+          <div class="legal-note">
+            <p>Este documento es una plantilla informativa de carácter general y no constituye asesoría legal. Se recomienda que Administración Profesional lo revise con un abogado antes de publicarlo de forma definitiva, para adaptarlo a las condiciones reales de contratación de la empresa.</p>
+          </div>
+
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-col footer-brand">
+            <a href="index.html#inicio" class="logo logo-light" aria-label="Ir al inicio">
+              <span class="logo-mark">A</span>
+              <span class="logo-text">
+                <strong>Administración</strong>
+                <em>Profesional</em>
+              </span>
+            </a>
+            <p>Especialistas en administración de obra, gestión de recursos humanos y consultoría de proyectos con más de 20 años de experiencia en el mercado mexicano.</p>
+            <div class="footer-social" aria-label="Redes sociales">
+              <a href="https://wa.me/5215544705244" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.1 3 .1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 2-1.4.2-.6.2-1.2.1-1.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.2L2 22l4.9-1.4C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.2.9.9-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              </a>
+              <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.83a8.18 8.18 0 004.79 1.53V6.89a4.85 4.85 0 01-1.02-.2z"/></svg>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Servicios</h4>
+            <ul class="footer-links">
+              <li><a href="administracion-de-obra.html">Administración de Obra</a></li>
+              <li><a href="administracion-rrhh.html">Recursos Humanos</a></li>
+              <li><a href="consultoria-de-proyectos.html">Consultoría de Proyectos</a></li>
+              <li><a href="index.html#proceso">Nuestro Proceso</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Empresa</h4>
+            <ul class="footer-links">
+              <li><a href="index.html#nosotros">Sobre Nosotros</a></li>
+              <li><a href="index.html#beneficios">Por Qué Elegirnos</a></li>
+              <li><a href="index.html#clientes">Testimonios</a></li>
+              <li><a href="index.html#estadisticas">Resultados</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Contacto</h4>
+            <ul class="footer-contact">
+              <li>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" stroke="currentColor" stroke-width="1.5"/><path d="M10 2C6.7 2 4 4.7 4 8c0 4.4 6 10 6 10s6-5.6 6-10c0-3.3-2.7-6-6-6z" stroke="currentColor" stroke-width="1.5"/></svg>
+                Ciudad de México, México
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5.5 9c1.2 2.3 3.2 4.3 5.5 5.5l1.8-1.8c.3-.3.6-.3.9-.2.9.3 1.9.5 3 .5.5 0 .8.4.8.8V17c0 .5-.4.8-.8.8C8 17.8 2.2 12 2.2 4.8c0-.5.3-.8.8-.8H6c.5 0 .8.3.8.8 0 1.1.2 2.1.5 3 .1.3 0 .6-.2.8L5.5 9z" stroke="currentColor" stroke-width="1.5"/></svg>
+                +52 55 4470 5244
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 5h14a1 1 0 011 1v8a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1z" stroke="currentColor" stroke-width="1.5"/><path d="M2 6l8 6 8-6" stroke="currentColor" stroke-width="1.5"/></svg>
+                contacto@admprofesional.mx
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 Administración Profesional. Todos los derechos reservados.</p>
+        <ul class="footer-legal">
+          <li><a href="aviso-de-privacidad.html">Aviso de Privacidad</a></li>
+          <li><a href="aviso-de-privacidad.html#cookies">Política de Cookies</a></li>
+          <li><a href="terminos-y-condiciones.html">Términos y Condiciones</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BOTONES FLOTANTES ===== -->
+  <a href="https://wa.me/5215544705244" class="fab fab-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.1 3 .1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 2-1.4.2-.6.2-1.2.1-1.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.2L2 22l4.9-1.4C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.2.9.9-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+  </a>
+  <button class="fab fab-top" id="back-to-top" aria-label="Volver al inicio">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 15l-6-6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+  <script>
+    (function () {
+      var links = document.querySelectorAll('.legal-toc a');
+      var sections = Array.from(links).map(function (a) {
+        return document.querySelector(a.getAttribute('href'));
+      }).filter(Boolean);
+      if (!sections.length) return;
+      var obs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            links.forEach(function (a) {
+              a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id);
+            });
+          }
+        });
+      }, { rootMargin: '-20% 0px -70% 0px' });
+      sections.forEach(function (s) { obs.observe(s); });
+    })();
+  </script>
+</body>
+</html>

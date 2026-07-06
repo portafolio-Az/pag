@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aviso de Privacidad de Administración Profesional: cómo recabamos, usamos y protegemos sus datos personales conforme a la legislación mexicana." />
+  <meta name="robots" content="noindex, follow" />
+  <title>Aviso de Privacidad | Administración Profesional</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%230A1628'/><text y='24' x='4' font-size='22' fill='%23C8A96E'>A</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Barlow+Condensed:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Pantalla de carga / transición entre páginas -->
+  <div id="page-loader" class="page-loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-badge"><span class="loader-mark">A</span></div>
+      <p class="loader-text"><strong>Administración Profesional</strong>Cargando</p>
+      <div class="loader-bar"><span></span></div>
+    </div>
+  </div>
+  <noscript><style>#page-loader{display:none!important;}</style></noscript>
+
+  <!-- Barra de progreso de scroll -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header" role="banner">
+    <div class="header-inner">
+      <a href="index.html#inicio" class="logo" aria-label="Ir al inicio">
+        <span class="logo-mark">A</span>
+        <span class="logo-text">
+          <strong>Administración</strong>
+          <em>Profesional</em>
+        </span>
+      </a>
+
+      <nav id="main-nav-desktop" role="navigation" aria-label="Menú principal" class="nav-desktop">
+        <ul class="nav-list">
+          <li><a href="index.html#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="index.html#nosotros" class="nav-link">Nosotros</a></li>
+          <li class="has-submenu">
+            <a href="index.html#servicios" class="nav-link">Servicios <span class="chevron">›</span></a>
+            <ul class="submenu" role="menu">
+              <li><a href="administracion-de-obra.html" role="menuitem">Administración de Obra</a></li>
+              <li><a href="administracion-rrhh.html" role="menuitem">Recursos Humanos</a></li>
+              <li><a href="consultoria-de-proyectos.html" role="menuitem">Consultoría de Proyectos</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#beneficios" class="nav-link">Beneficios</a></li>
+          <li><a href="index.html#clientes" class="nav-link">Clientes</a></li>
+          <li><a href="index.html#faq" class="nav-link">Preguntas Frecuentes</a></li>
+          <li><a href="index.html#contacto" class="nav-link nav-cta">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav-mobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div id="main-nav-mobile" class="mobile-nav" aria-hidden="true" role="dialog" aria-label="Menú de navegación">
+    <nav>
+      <ul class="mobile-nav-list">
+        <li><a href="index.html#inicio">Inicio</a></li>
+        <li><a href="index.html#nosotros">Nosotros</a></li>
+        <li><a href="administracion-de-obra.html">Administración de Obra</a></li>
+        <li><a href="administracion-rrhh.html">Recursos Humanos</a></li>
+        <li><a href="consultoria-de-proyectos.html">Consultoría de Proyectos</a></li>
+        <li><a href="index.html#beneficios">Beneficios</a></li>
+        <li><a href="index.html#clientes">Clientes</a></li>
+        <li><a href="index.html#faq">Preguntas Frecuentes</a></li>
+        <li class="mobile-nav-cta"><a href="index.html#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
+  <!-- ===== ENCABEZADO LEGAL ===== -->
+  <header class="legal-header">
+    <div class="legal-header-inner">
+      <p class="mini-hero-crumb">
+        <a href="index.html">Inicio</a> <span aria-hidden="true">/</span> <span>Aviso de Privacidad</span>
+      </p>
+      <span class="legal-eyebrow">Protección de datos</span>
+      <h1>Aviso de Privacidad</h1>
+      <p class="legal-updated">Última actualización: 5 de julio de 2026</p>
+    </div>
+  </header>
+
+  <!-- ===== CONTENIDO ===== -->
+  <section class="legal-body">
+    <div class="container">
+      <div class="legal-layout">
+
+        <aside class="legal-toc" aria-label="Contenido del documento">
+          <span class="legal-toc-label">Contenido</span>
+          <ul>
+            <li><a href="#responsable">1. Responsable</a></li>
+            <li><a href="#datos">2. Datos que recabamos</a></li>
+            <li><a href="#finalidades">3. Finalidades</a></li>
+            <li><a href="#transferencias">4. Transferencias</a></li>
+            <li><a href="#derechos-arco">5. Derechos ARCO</a></li>
+            <li><a href="#limitacion">6. Limitar uso y divulgación</a></li>
+            <li><a href="#cookies">7. Cookies y rastreo</a></li>
+            <li><a href="#cambios">8. Cambios al aviso</a></li>
+            <li><a href="#contacto-privacidad">9. Contacto</a></li>
+          </ul>
+        </aside>
+
+        <article class="legal-article">
+
+          <h2 id="responsable">1. Identidad y domicilio del responsable</h2>
+          <p><strong>Administración Profesional</strong> ("nosotros" o "la empresa"), con domicilio en Ciudad de México, México, es responsable del tratamiento de sus datos personales conforme a lo dispuesto por la Ley Federal de Protección de Datos Personales en Posesión de Particulares (LFPDPPP) y su Reglamento.</p>
+
+          <h2 id="datos">2. Datos personales que recabamos</h2>
+          <p>Para las finalidades descritas en este aviso, podemos recabar las siguientes categorías de datos personales cuando usted los proporciona voluntariamente a través de nuestro formulario de contacto, WhatsApp o correo electrónico:</p>
+          <ul>
+            <li>Datos de identificación: nombre completo.</li>
+            <li>Datos de contacto: correo electrónico, teléfono.</li>
+            <li>Datos laborales o profesionales: nombre de la empresa, plan o servicio de interés.</li>
+            <li>Contenido del mensaje o solicitud que usted redacte en el formulario.</li>
+          </ul>
+          <p>No recabamos datos personales sensibles, financieros o patrimoniales a través de nuestro sitio web.</p>
+
+          <h2 id="finalidades">3. Finalidades del tratamiento</h2>
+          <p>Sus datos personales serán utilizados para las siguientes finalidades, necesarias para el servicio que solicita:</p>
+          <ul>
+            <li>Responder a sus solicitudes de información o cotización.</li>
+            <li>Contactarlo por correo electrónico, teléfono o WhatsApp para dar seguimiento a su solicitud.</li>
+            <li>Elaborar propuestas y presupuestos para los servicios de administración de obra, administración de recursos humanos o consultoría de proyectos.</li>
+            <li>Formalizar, en su caso, la contratación de nuestros servicios.</li>
+          </ul>
+          <p>De manera adicional, y siempre que usted no se oponga, podríamos usar su información de contacto para las siguientes finalidades secundarias:</p>
+          <ul>
+            <li>Enviarle información sobre nuevos servicios o promociones.</li>
+            <li>Realizar encuestas de satisfacción sobre el servicio prestado.</li>
+          </ul>
+          <p>Si no desea que sus datos sean tratados para estas finalidades secundarias, puede indicarlo enviando un correo a la dirección señalada en la sección de contacto de este aviso.</p>
+
+          <h2 id="transferencias">4. Transferencia de datos</h2>
+          <p>Sus datos personales no serán compartidos con terceros ajenos a la empresa, salvo en los siguientes casos:</p>
+          <ul>
+            <li>Cuando la transferencia sea necesaria para la prestación del servicio contratado (por ejemplo, contratistas o proveedores directamente involucrados en la ejecución de un proyecto que usted haya autorizado).</li>
+            <li>Cuando exista un requerimiento de autoridad competente, de conformidad con la ley aplicable.</li>
+          </ul>
+          <p>En ningún caso vendemos, rentamos o comercializamos sus datos personales con fines publicitarios de terceros.</p>
+
+          <h2 id="derechos-arco">5. Derechos ARCO y cómo ejercerlos</h2>
+          <p>Usted tiene derecho a Acceder, Rectificar y Cancelar sus datos personales, así como a Oponerse al tratamiento de los mismos (derechos ARCO), además de revocar el consentimiento que en su caso nos haya otorgado.</p>
+          <p>Para ejercer cualquiera de estos derechos, puede enviar una solicitud al correo <a href="mailto:contacto@administracionprofesional.mx">contacto@administracionprofesional.mx</a>, indicando:</p>
+          <ul>
+            <li>Nombre completo y datos de contacto para responder a su solicitud.</li>
+            <li>El derecho que desea ejercer y una descripción clara de los datos sobre los que aplica.</li>
+            <li>Cualquier documento que facilite la localización de sus datos personales en nuestros registros.</li>
+          </ul>
+          <p>Daremos respuesta a su solicitud dentro de un plazo máximo de 20 días hábiles, conforme a lo establecido por la LFPDPPP.</p>
+
+          <h2 id="limitacion">6. Mecanismos para limitar el uso o divulgación de sus datos</h2>
+          <p>Usted puede solicitar en cualquier momento que dejemos de usar su información para fines de mercadotecnia o publicidad, enviando dicha solicitud al correo de contacto señalado en este aviso.</p>
+
+          <h2 id="cookies">7. Uso de cookies y tecnologías de rastreo</h2>
+          <p>Nuestro sitio web puede utilizar cookies y tecnologías similares para mejorar su experiencia de navegación, recordar sus preferencias y analizar el uso general del sitio. Usted puede deshabilitar el uso de cookies desde la configuración de su navegador; sin embargo, algunas funciones del sitio podrían verse limitadas.</p>
+
+          <h2 id="cambios">8. Cambios al Aviso de Privacidad</h2>
+          <p>Nos reservamos el derecho de actualizar este Aviso de Privacidad ante cambios en la legislación aplicable, en nuestras prácticas internas o por otras causas. Cualquier modificación será publicada en esta misma página, indicando la fecha de la última actualización en la parte superior del documento.</p>
+
+          <h2 id="contacto-privacidad">9. Contacto</h2>
+          <p>Si tiene dudas sobre el tratamiento de sus datos personales o sobre el contenido de este aviso, puede contactarnos a través de:</p>
+          <ul>
+            <li>Correo electrónico: <a href="mailto:contacto@administracionprofesional.mx">contacto@administracionprofesional.mx</a></li>
+            <li>WhatsApp: <a href="https://wa.me/5215544705244" target="_blank" rel="noopener noreferrer">+52 55 4470 5244</a></li>
+            <li>Domicilio: Ciudad de México, México</li>
+          </ul>
+
+          <div class="legal-note">
+            <p>Este documento es una plantilla informativa de carácter general y no constituye asesoría legal. Se recomienda que Administración Profesional lo revise con un abogado especializado en protección de datos para asegurar el cumplimiento total con la LFPDPPP y su Reglamento antes de publicarlo de forma definitiva.</p>
+          </div>
+
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-col footer-brand">
+            <a href="index.html#inicio" class="logo logo-light" aria-label="Ir al inicio">
+              <span class="logo-mark">A</span>
+              <span class="logo-text">
+                <strong>Administración</strong>
+                <em>Profesional</em>
+              </span>
+            </a>
+            <p>Especialistas en administración de obra, gestión de recursos humanos y consultoría de proyectos con más de 20 años de experiencia en el mercado mexicano.</p>
+            <div class="footer-social" aria-label="Redes sociales">
+              <a href="https://wa.me/5215544705244" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.1 3 .1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 2-1.4.2-.6.2-1.2.1-1.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.2L2 22l4.9-1.4C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.2.9.9-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              </a>
+              <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.83a8.18 8.18 0 004.79 1.53V6.89a4.85 4.85 0 01-1.02-.2z"/></svg>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Servicios</h4>
+            <ul class="footer-links">
+              <li><a href="administracion-de-obra.html">Administración de Obra</a></li>
+              <li><a href="administracion-rrhh.html">Recursos Humanos</a></li>
+              <li><a href="consultoria-de-proyectos.html">Consultoría de Proyectos</a></li>
+              <li><a href="index.html#proceso">Nuestro Proceso</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Empresa</h4>
+            <ul class="footer-links">
+              <li><a href="index.html#nosotros">Sobre Nosotros</a></li>
+              <li><a href="index.html#beneficios">Por Qué Elegirnos</a></li>
+              <li><a href="index.html#clientes">Testimonios</a></li>
+              <li><a href="index.html#estadisticas">Resultados</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Contacto</h4>
+            <ul class="footer-contact">
+              <li>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 10.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z" stroke="currentColor" stroke-width="1.5"/><path d="M10 2C6.7 2 4 4.7 4 8c0 4.4 6 10 6 10s6-5.6 6-10c0-3.3-2.7-6-6-6z" stroke="currentColor" stroke-width="1.5"/></svg>
+                Ciudad de México, México
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M5.5 9c1.2 2.3 3.2 4.3 5.5 5.5l1.8-1.8c.3-.3.6-.3.9-.2.9.3 1.9.5 3 .5.5 0 .8.4.8.8V17c0 .5-.4.8-.8.8C8 17.8 2.2 12 2.2 4.8c0-.5.3-.8.8-.8H6c.5 0 .8.3.8.8 0 1.1.2 2.1.5 3 .1.3 0 .6-.2.8L5.5 9z" stroke="currentColor" stroke-width="1.5"/></svg>
+                +52 55 4470 5244
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 5h14a1 1 0 011 1v8a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1z" stroke="currentColor" stroke-width="1.5"/><path d="M2 6l8 6 8-6" stroke="currentColor" stroke-width="1.5"/></svg>
+                contacto@admprofesional.mx
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 Administración Profesional. Todos los derechos reservados.</p>
+        <ul class="footer-legal">
+          <li><a href="aviso-de-privacidad.html">Aviso de Privacidad</a></li>
+          <li><a href="aviso-de-privacidad.html#cookies">Política de Cookies</a></li>
+          <li><a href="terminos-y-condiciones.html">Términos y Condiciones</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BOTONES FLOTANTES ===== -->
+  <a href="https://wa.me/5215544705244" class="fab fab-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.1 3 .1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 2-1.4.2-.6.2-1.2.1-1.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.4 5.2L2 22l4.9-1.4C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.7 0-3.4-.5-4.8-1.3l-.3-.2-3.2.9.9-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+  </a>
+  <button class="fab fab-top" id="back-to-top" aria-label="Volver al inicio">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M18 15l-6-6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+  <script>
+    // Resalta el enlace activo del índice según la sección visible
+    (function () {
+      var links = document.querySelectorAll('.legal-toc a');
+      var sections = Array.from(links).map(function (a) {
+        return document.querySelector(a.getAttribute('href'));
+      }).filter(Boolean);
+      if (!sections.length) return;
+      var obs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            links.forEach(function (a) {
+              a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id);
+            });
+          }
+        });
+      }, { rootMargin: '-20% 0px -70% 0px' });
+      sections.forEach(function (s) { obs.observe(s); });
+    })();
+  </script>
+</body>
+</html>
