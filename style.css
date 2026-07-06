@@ -2286,7 +2286,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .loader-inner { animation: none; }
 }
 
-<<<<<<< HEAD
 /* =============================================================
    PÁGINAS LEGALES — Aviso de Privacidad / Términos y Condiciones
    ============================================================= */
@@ -2305,6 +2304,36 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   background: radial-gradient(circle, rgba(200,169,110,0.12), transparent 70%);
   pointer-events: none;
 }
+
+/* Variante compacta con imagen de fondo (más baja / "chaparra") */
+.legal-header-compact {
+  padding-top: calc(var(--header-h) + 1.5rem);
+  padding-bottom: 1.75rem;
+  background: var(--navy);
+}
+.legal-header-compact::before { display: none; }
+.legal-header-media {
+  position: absolute;
+  inset: 0;
+}
+.legal-header-media img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.legal-header-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(10,22,40,0.92) 0%, rgba(10,22,40,0.8) 55%, rgba(10,22,40,0.6) 100%);
+}
+.legal-header-compact .legal-header-inner { padding-top: 0; }
+.legal-header-compact h1 {
+  font-size: clamp(1.7rem, 3.2vw, 2.35rem);
+  margin-bottom: 0.5rem;
+}
+.legal-header-compact .legal-eyebrow { margin-bottom: 0.6rem; }
+.legal-header-compact .legal-updated { margin-bottom: 0; }
+
 .legal-header-inner {
   position: relative;
   z-index: 1;
@@ -2443,5 +2472,3 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   .legal-toc a:hover, .legal-toc a.active { border-color: var(--copper); background: rgba(200,169,110,0.08); }
 }
 
-=======
->>>>>>> 69d6b92fd24d61009389263dd42b1a4dd4e6ac45
